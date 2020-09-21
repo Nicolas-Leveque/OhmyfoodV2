@@ -1,0 +1,21 @@
+{
+  "name": "ohmyfood",
+  "version": "1.0.0",
+  "description": "Formation OpenClassrooms  Parcours web développeur projet 3 version 2",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./scss/style.scss:./css/style.css ./scss/style2.scss:./css/style2.css ./scss/mentions.scss:./css/mentions.css",
+    "prefix": "postcss ./css/*.css --use autoprefixer -d ./css/prefixed/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nicolas-Leveque/OhmyfoodV2.git"
+  },
+  "author": "Nicolas Lévêque",
+  "license": "ISC",
+  "browserslist": "last 4 versions",
+  "bugs": {
+    "url": "https://github.com/Nicolas-Leveque/OhmyfoodV2/issues"
+  },
+  "homepage": "https://github.com/Nicolas-Leveque/OhmyfoodV2#readme"
+}
