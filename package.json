@@ -4,7 +4,7 @@
   "description": "Formation OpenClassrooms  Parcours web développeur projet 3 version 2",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch ./scss/style.scss:./css/style.css ./scss/style2.scss:./css/style2.css ./scss/mentions.scss:./css/mentions.css",
+    "sass": "sass --watch ./scss/style.scss:./css/style.css ./scss/style2.scss:./css/style2.css",
     "prefix": "postcss ./css/*.css --use autoprefixer -d ./css/prefixed/"
   },
   "repository": {

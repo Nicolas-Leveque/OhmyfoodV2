@@ -1,0 +1,14 @@
+.localisation {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    justify-content: center;
+    background-color: $dark-grey;
+    z-index: -1;
+    & i{
+        margin: auto;
+        margin-right: 2%;
+        margin-left: 0;
+
+    }
+}
