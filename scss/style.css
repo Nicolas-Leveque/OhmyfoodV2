@@ -74,6 +74,7 @@ footer a {
       -ms-flex-align: center;
           align-items: center;
   background-color: #f6f6f6;
+  padding: 2%;
 }
 
 .intro p {
@@ -104,6 +105,108 @@ button {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  padding: 5%;
+}
+
+.fonctionnement article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 2%;
+  background-color: #f6f6f6;
+  border-radius: 20px;
+  -webkit-box-shadow: 2px grey;
+          box-shadow: 2px grey;
+}
+
+.fonctionnement .number {
+  position: absolute;
+  left: 5px;
+  width: 10px;
+  height: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 3%;
+  padding: 5px;
+  border-radius: 50%;
+  background-color: #9356DC;
+  color: white;
+}
+
+.fonctionnement .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.fonctionnement i {
   margin: 5%;
+  color: grey;
+}
+
+.restaurants {
+  background-color: #f6f6f6;
+  padding: 5%;
+}
+
+.restaurants article {
+  width: 100%;
+  height: 20%;
+  border: 2px black;
+  border-radius: 20px;
+  margin: 2%;
+  background-color: white;
+  -webkit-box-shadow: grey 2px;
+          box-shadow: grey 2px;
+}
+
+.restaurants img {
+  width: 100%;
+  margin: 0;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.restaurants .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.restaurants i {
+  font-size: 1.5rem;
+  margin-right: 20px;
 }
 /*# sourceMappingURL=style.css.map */
