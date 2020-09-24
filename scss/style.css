@@ -3,6 +3,18 @@ body {
   padding: 0;
 }
 
+h3 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+footer {
+  margin: 0;
+}
+
 header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -14,7 +26,6 @@ header {
 }
 
 footer {
-  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -22,14 +33,29 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
   background-color: #353535;
   color: white;
-  -webkit-box-shadow: 2px;
-          box-shadow: 2px;
+  padding: 5%;
 }
 
-footer img {
+footer svg {
+  margin-bottom: 5%;
+}
+
+footer path {
   fill: white;
+}
+
+footer p {
+  width: 80%;
+}
+
+footer i {
+  margin-right: 2%;
+  font-size: 0.8rem;
 }
 
 footer a {
@@ -46,11 +72,14 @@ footer a {
       -ms-flex-direction: row;
           flex-direction: row;
   margin: 0;
+  padding: 5%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   background-color: #eaeaea;
-  z-index: -1;
+  -webkit-box-shadow: inset 0 1px 2px grey;
+          box-shadow: inset 0 1px 2px grey;
+  border: none;
 }
 
 .localisation i {
@@ -74,15 +103,16 @@ footer a {
       -ms-flex-align: center;
           align-items: center;
   background-color: #f6f6f6;
-  padding: 2%;
+  padding: 5%;
 }
 
 .intro p {
   margin: 0;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 h1 {
+  margin: 10% 12% 5% 12%;
   font-size: 1.7em;
 }
 
@@ -171,12 +201,12 @@ button {
   padding: 5%;
 }
 
-.restaurants article {
+.restaurants .resto {
   width: 100%;
-  height: 20%;
+  height: 248px;
   border: 2px black;
   border-radius: 20px;
-  margin: 2%;
+  margin: 10% 0 10% 0;
   background-color: white;
   -webkit-box-shadow: grey 2px;
           box-shadow: grey 2px;
@@ -184,6 +214,7 @@ button {
 
 .restaurants img {
   width: 100%;
+  height: 70%;
   margin: 0;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
@@ -203,6 +234,7 @@ button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 2%;
 }
 
 .restaurants i {

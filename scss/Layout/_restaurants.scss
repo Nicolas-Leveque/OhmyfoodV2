@@ -1,17 +1,18 @@
 .restaurants {
     background-color: $light-grey;
     padding: 5%;
-    & article {
+    & .resto {
         width: 100%;
-        height: 20%;
+        height: 248px;
         border: 2px black;
         border-radius: 20px;
-        margin: 2%;
+        margin: 10% 0 10% 0;
         background-color: white;
         box-shadow: grey 2px;
     }
     & img {
         width: 100%;
+        height: 70%;
         margin: 0;
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
@@ -21,6 +22,7 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+        padding: 2%;
     }
     & i {
         
