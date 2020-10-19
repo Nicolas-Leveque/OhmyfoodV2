@@ -3,6 +3,7 @@
     flex-direction: column;
     padding: 5%;
     & article {
+        transition: all 0.2s ease-in;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -10,8 +11,16 @@
         background-color: $light-grey;
         border-radius: 20px;
         box-shadow: 2px grey;
-        
-
+        & i {
+            margin: 7%;
+            color: grey;
+        }
+        &:hover {
+            background-color: $light-purple;
+            i {
+                color: $primary-color;
+            }
+        }
     }
     & .number {
         position: absolute;
@@ -33,9 +42,9 @@
         align-items:center;
         width: 100%;
     }
-    & i {
-        margin: 5%;
+    /*& i {
+        margin: 7%;
         color: grey;
-    }
+    }*/
 
 }

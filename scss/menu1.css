@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+footer {
+  margin: 0;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 3%;
+}
+
+button {
+  margin: 5%;
+  padding: 2%;
+  background: -webkit-gradient(linear, left top, left bottom, from(#FF79DA), to(#9356DC));
+  background: linear-gradient(#FF79DA, #9356DC);
+  color: white;
+  font-size: 1rem;
+  border-radius: 20px;
+  border: none;
+}
+
+.fond {
+  margin: 0;
+  padding: 0;
+}
+
+.fond img {
+  width: 100%;
+  height: 70%;
+}
+
+.menu {
+  position: relative;
+  margin-top: -30px;
+  z-index: 1;
+  padding: 5%;
+  border-radius: 20px;
+  background-color: #f6f6f6;
+}
+
+.section-menu {
+  margin-top: 5%;
+}
+
+.section-menu h3 {
+  margin: 0;
+  font-weight: normal;
+}
+
+.section-menu .element-repas {
+  margin-top: 5%;
+  padding: 5%;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.section-menu .element-repas h5 {
+  font-size: large;
+  margin: 0;
+}
+
+.section-menu .element-repas .texte-plat {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.order {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.order button {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  background-color: #353535;
+  color: white;
+  padding: 5%;
+}
+
+footer svg {
+  margin-bottom: 5%;
+}
+
+footer path {
+  fill: white;
+}
+
+footer p {
+  width: 80%;
+}
+
+footer i {
+  margin-right: 2%;
+  font-size: 0.8rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+/*# sourceMappingURL=menu1.css.map */

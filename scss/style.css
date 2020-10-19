@@ -136,9 +136,15 @@ button {
       -ms-flex-direction: column;
           flex-direction: column;
   padding: 5%;
+  /*& i {
+        margin: 7%;
+        color: grey;
+    }*/
 }
 
 .fonctionnement article {
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -154,6 +160,19 @@ button {
   border-radius: 20px;
   -webkit-box-shadow: 2px grey;
           box-shadow: 2px grey;
+}
+
+.fonctionnement article i {
+  margin: 7%;
+  color: grey;
+}
+
+.fonctionnement article:hover {
+  background-color: #f5edff;
+}
+
+.fonctionnement article:hover i {
+  color: #9356DC;
 }
 
 .fonctionnement .number {
@@ -191,14 +210,14 @@ button {
   width: 100%;
 }
 
-.fonctionnement i {
-  margin: 5%;
-  color: grey;
-}
-
 .restaurants {
   background-color: #f6f6f6;
   padding: 5%;
+}
+
+.restaurants a {
+  text-decoration: none;
+  color: black;
 }
 
 .restaurants .resto {
@@ -238,7 +257,15 @@ button {
 }
 
 .restaurants i {
+  background-clip: text;
+  color: transparent;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
   font-size: 1.5rem;
   margin-right: 20px;
+}
+
+.restaurants i:hover {
+  color: red;
 }
 /*# sourceMappingURL=style.css.map */
