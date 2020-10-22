@@ -37,6 +37,7 @@ button {
 }
 
 .fond {
+  max-height: 280px;
   margin: 0;
   padding: 0;
 }
